@@ -3,7 +3,7 @@ package another;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class ForEach {
+public class HowToIterableAndIterators {
     public static void main(String[] args) {
         MyInts ints = new MyInts(1, 100);
         for (Integer i : ints) {
