@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 public class Inheritance {
     // == FINAL STATIC ============================
@@ -36,7 +36,7 @@ public class Inheritance {
     }
 
     public static void showAll(A var) {
-        System.out.println(">>>>>>>>>>>> public static void showAll(A var)");
+        System.out.println(">>>>>>>>>>>> public static void showAll(MyInts var)");
         System.out.println("~~ FIELDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("== FINAL STATIC =============================");
         System.out.println(DEFAULT_FINAL_STATIC + getNamedID(var._defFinStat));
@@ -158,7 +158,7 @@ public class Inheritance {
         showAll(b);
 
         A bToA = new B();
-        System.out.println("A bToA = new B();");
+        System.out.println("MyInts bToA = new B();");
         showAll(bToA);
 
         B cToB = new C();
@@ -166,7 +166,7 @@ public class Inheritance {
         showAll(cToB);
 
         A cToA = new C();
-        System.out.println("A cToA = new C();");
+        System.out.println("MyInts cToA = new C();");
         showAll(cToA);
 
         DC dc = new DC();

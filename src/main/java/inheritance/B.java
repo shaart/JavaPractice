@@ -1,9 +1,9 @@
-package Inheritance;
+package inheritance;
 
-public class C extends B {
+public class B extends A {
     // ~~ FIELDS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // == FINAL STATIC =============================
-    final static int statID = 3;
+    final static int statID = 2;
     final static int _defFinStat = statID;
     private final static int _privFinStat = statID;
     protected final static int _protFinStat = statID;
