@@ -1,9 +1,6 @@
 package another;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class HowToArrays {
     public static void main(String[] args) {
@@ -56,6 +53,20 @@ public class HowToArrays {
             ages.add(7);
 //            ages.add(null);
             for (int age : ages) System.out.print(age);
+            System.out.println();
+        }
+        System.out.println();
+        {
+            List<String> one = new ArrayList<String>();
+            one.add("abc");
+            List<String> two = new ArrayList<>();
+            two.add("abc");
+            if (one == two)
+                System.out.println("A");
+            else if (one.equals(two))
+                System.out.println("B");
+            else
+                System.out.println("C");
         }
     }
 }
